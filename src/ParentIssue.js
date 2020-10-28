@@ -59,8 +59,6 @@ class ParentIssue extends React.Component {
                     )
                 }
 
-                console.log(data)
-
                 this.setState({
                     data: dataIssues,
                     pageCount: pageCount
